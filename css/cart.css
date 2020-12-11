@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hide{
+    display: none;
+}
+.off{
+    height: 300px;
+    
+    text-align: center; 
+}
+.off >img{
+    margin-top: 100px;
+}
+a{
+    text-decoration: none;
+    
+}
+.off  a{
+    text-decoration: none;
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    color: white;
+    background-color: #ff8000;
+}
+.cenner{
+    width: 1190px;
+    margin: 0 auto;
+}
+.headerBox {
+    position: relative;
+}
+.headerBox >img{
+  margin-top: 20px;
+}
+.headerLeft{
+    width: 320px;
+    height: 32px;
+    display: flex;
+    border: 2px solid #f50;
+}
+.headerLeft >img{
+    width: 30px;
+    height: 30px;
+}
+.headerLeft >input{
+    width: 300px;
+    font-size: 16px;
+    border: 0;
+    outline:none;
+    color: #333;
+}
+.headerLeftBox{
+    display: flex;
+    width:394px;
+    position: absolute;
+    top: 34px;
+    right: 0;
+}
+.headerLeftBox >span{
+    height: 36px;
+    width: 70px;
+    cursor: pointer;
+    color: white;
+    line-height: 36px;
+    text-align: center;
+    background-color: #f50;
+    display: block;  
+}
+.cart-table-header{
+    height: 32px;
+    margin-top: 40px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.cart-table-header > input{
+    margin-left: 20px;
+}
+.cart-table-header > p{
+    margin-left:150px;
+}
+.cartBox{
+    height: 112px;
+    overflow: hidden;
+    background-color: #fffbf2;
+    display: flex;
+    opacity: 0.8;
+    align-items: center;
+}
+.cartBox:hover{
+    opacity: 1;
+}
+.cartBox input{
+    margin-left: 15px;
+}
+.goods {
+    width: 300px;
+    height: 80px;
+    margin-left: 30px;
+    position: relative;
+}
+.goods img{
+    width: 80px;
+    height: 80px;
+}
+.goods p{
+    text-align: right;
+    position: absolute;
+    top: 10px;
+    width: 190px;
+    right: 20px;
+    font-size: 14px;
+}
+.goodsSize{
+    width: 120px;
+    text-align: center;
+}
+.goodsMoney{
+    width: 250px;
+    text-align: center;
+    
+}
+.goodsNub{
+    background-color: white;
+    width: 60px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333;
+}
+.goodsNub >input{
+    width: 20px;
+    margin: 0;
+    text-align: center;
+    border: 0;
+    outline: none;
+}
+.goodsNub >span{
+    font-size: 20px;
+    display: inline-block;
+    text-align: center; 
+    line-height: 25px;
+    cursor: pointer;  
+}
+.goodsMoneys{
+    width: 290px;
+    text-align: center;
+    margin-right: 10px;
+}
+.goodsMpt{
+    cursor: pointer;
+    color: red;
+}
+.footer{
+    width: 59px;
+    border: #333 1px solid;
+}
+.goodsFoot{
+    height: 70px;
+    border: solid 1px  #ddd;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.Checkout{
+    float: right;
+    width: 100px;
+    height: 70px;
+    background-color: #f50;
+    text-align: center;
+    line-height: 70px;
+    color:#fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.CheckoutNum{
+    float: right;
+    font-size: 15px;
+    margin-right: 100px;
+}
+.CheckoutNum >span{
+    font-size: 23px;
+    color: #ff8000;
+}
+.CheckoutNum p{
+    font-size: 12px;
+    opacity: 0.5;
+}
+.CheckoutNum a{
+    font-size: 12px;
+}

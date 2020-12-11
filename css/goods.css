@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+._footer ul .Three >p >a{
+    color: white;
+}
+.cenner{
+    width: 1190px;
+    margin: 0 auto;
+}
+.headerTop{
+    height: 60px;
+    display: flex;
+}
+
+.headerTop img{
+    width: 60px;
+    height: 60px;
+}
+.headerTop span{
+    line-height: 60px;
+    color: white;
+    font-size: 15px;
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+.headerTop :nth-child(1){
+    margin-left: 20px;
+}
+.headerTop span:hover{
+    background-color: #ff8000;
+}
+.goodBox_{
+    width: 100%;
+    margin-top: 40px;  
+}
+/*  */
+
+.box {
+    float: left;
+    width: 400px;
+    height: 480px;
+    border: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .box >img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .box > .show {
+    width: 100%;
+    height: 400px;
+    border-bottom: 1px solid #333;
+    position: relative;
+  }
+
+  .box > .show >img{
+      width: 400px;
+      height: 400px;
+  }
+  .box > .show > .mask {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    pointer-events: none;
+    display: none;
+  }
+
+  .box > .list {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 40px;
+  }
+
+  .box > .list > p {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #333;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .box > .list > p.active {
+    
+    border-color: #ff8000;
+  }
+  .list > p >img{
+      width: 60px;
+      height: 60px;
+  }
+  .box > .enlarge {
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+    position: absolute;
+    left: 110%;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+    background-position: 0 0;
+    z-index: 999;
+    display: none;
+  }
+  .box > .enlarge {
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+  }
+/*  */
+.right> h4{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.right{
+    width: 700px;
+    float: right;
+}
+.right>p{
+    margin-top: 10px;
+}
+._cenner{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    line-height: 50px;
+    color: white;
+    margin-top: 20px;
+}
+._cenner > h3{
+    
+    float: left;
+}
+._cenner > p{
+    float: right;
+    font-size: 14px;
+    margin-right: 30px;
+}
+._foot{
+    width: 700px;
+    height: 130px;
+    background-color: rgb(255, 248, 243);
+    position: relative;
+    overflow: hidden;
+}
+._foot p > del{
+    color: #333
+}
+._foot >p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+._foot ._footText{
+    color: red;
+}
+._foot ._footText a{
+    font-size: 30px;
+}
+
+._foot >img{
+    display: block;
+    float: right;
+}
+._foot .img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+._footer ul{
+    list-style: none;
+}
+._footer ul >li{
+    margin-top: 20px;
+}
+._footer ul >li> p{
+    margin-left: 60px;
+    width: 100px;
+      
+}
+._footer ul .One{
+    display: flex;
+    text-align: center;
+   
+}
+._footer ul .One p{
+    border: 1px solid #ff8000;
+}
+
+._footer ul .Two{
+    display: flex;  
+}
+._footer ul .Two p{
+    border:  black 1px solid;
+    cursor: pointer;
+    text-align: center;
+}
+
+._footer ul .Three{
+    width: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+._footer ul .Three goodsGo{
+    position: absolute;
+    top: 0;
+}
+._footer ul .Three button{
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    margin-left: 35px;
+    text-align: center;
+    line-height: 30px;
+}
+
+._footer ul .Three :nth-child(3){
+        margin-left: 63px;
+}
+._footer ul .Three input{
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    -webkit-appearance: none !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+._footer ul .Three >p{
+width: 200px;
+height: 50px;
+background-color: red;
+text-align: center;
+color: white;
+line-height: 50px;
+font-size: 20px;
+margin-top: 10px;
+cursor: pointer;
+} 

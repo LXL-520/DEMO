@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <style>
+
+.inputBox{
+    position: relative;
+}
+.inputBox >ul {
+      position: absolute;
+      z-index: 999;
+      top: 100%;
+      left: 20px;
+      width: 380px;
+      box-sizing: border-box;
+      display: none;
+      
+    }
+    .inputBox >  ul.active {
+      display: block;
+    }
+    .inputBox >ul > li {
+      list-style: none;
+      width: 100%;
+      height: 30px;
+      font-size: px;
+      line-height: 30px;
+      cursor: pointer;
+      background-color: white;
+    }
+   .inputBox> ul > li:hover {
+      background-color: #ccc;
+      color: #fff;
+    }
+    </style>
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <div class="cenner">
+        <img src="./images/首页01.jpg" alt="">
+        </div>
+    </div>
+    <!-- 头部导航 -->
+    <div class="header_nav">
+        <div class="_nav cenner">
+            <ul>
+                <li>网站导航</li>
+                <li>商家入驻</li>
+                <li>客户服务</li>
+                <li><img src="./images/位置.png">北京</li>
+            </ul>
+            <ol>
+                <li><a href="./login.html" class="off">请登录</a>
+                    <span class="on hide">您好:lixiaolei</span>
+                </li>
+                
+                <li><a>注册有礼</a></li>
+                <li>我的订单</li>
+                <li>我的易购</li>
+                <li>苏宁易购</li>
+                <li><img src="./images/购物车满.png" alt=""><a href="./cart.html">购物车</a></li>
+                <li>手机苏宁</li>
+            </ol>
+        </div>
+    </div>
+    <!-- 搜索盒子 -->
+    <div class="header_seek">
+        <div class="_seek cenner">
+            <img src="./images/苏宁易购.png" alt="">
+            <img src="./images/首页02.gif">
+            <div class="inputBox">
+                <img src="./images/搜索.png" alt="">
+                <input type="text" >
+                <ul></ul>
+            </div>
+            <div class="button">搜索</div>
+            <ul>
+                <li>玩具</li>
+                <li>88折换新机</li>
+                <li>空气炸锅</li>
+                <li>至高24期免息</li>
+                <li>手机</li>
+                <li>冰箱</li>
+                <li>电视</li>
+                <li>电脑</li>
+                <li>热水器</li>
+            </ul>
+        </div>
+    </div>
+    <!-- 内容导航 -->
+    <div class="navBox">
+        <div class="nav cenner">
+            <div class="nav_box">
+                <img src="./images/菜单栏.png">
+                <p>分类</p>
+            </div>
+            <ul>
+                <li>天天低价</li>
+                <li>苏宁国际</li>
+                <li>苏宁红孩子</li>
+                <li>苏宁超市</li>
+                <li>电器城</li>
+                <li>生活家电</li>
+                <li>苏宁Outlets</li>
+                <li>金融</li>
+            </ul>
+            <div class="nav_right">
+            <img src="./images/右边.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- banner图 -->
+    <div class="banner">
+        <!-- 轮播图 -->
+        <div class="cennerLb">
+            
+            <ul class="imgBox">
+                <li class="active" style="background-color: #f5b54c;"><img src="./images/轮播图1.png" alt=""></li>
+                <li style="background-color: #2470ff;"><img src="./images/轮播图2.png" alt=""></li>
+                <li style="background-color: #ad0f37;"><img src="./images/轮播图3.png" alt=""></li>
+                <li style="background-color: #bd0800;"><img src="./images/轮播图4.png" alt=""></li>
+                <li style="background-color: #104bb8;"><img src="./images/轮播图5.png" alt=""></li>
+            </ul>
+            <ol class="pointBox"></ol>
+            <div class="leftRightBox">
+              <div class="left">&lt;</div>
+              <div class="right">&gt;</div>
+            </div>
+        </div>
+        <!-- 左右盒子 -->
+        <div class="banner_box cenner">
+            
+             <div class="_left">
+                <ul>
+                    <li>手机
+                        <ol>
+                            <li>手机通讯</li>
+                            <li>手机配件</li>
+                            <li>智能设备</li>
+                            <li>影音电子</li>
+                            <li>电子教育</li>
+                            <li>二手优品</li>
+                            <li>苏宁优品</li>
+                            <li>营业厅</li>
+                            <li>会员卡</li>
+                        </ol>
+                    </li>
+                    <li>家用
+                        <ol>
+                            <li>空调</li>
+                            <li>电视</li>
+                            <li>冰箱</li>
+                            <li>洗衣机</li>
+                            <li>冷柜</li>
+                            <li>家庭影音</li>
+                            <li>帮客服务</li>
+                            <li>房产</li>
+                            <li>摄像头</li>
+                        </ol>
+                    </li>
+                    <li>厨卫
+                        <ol>
+                            <li>厨卫大电</li>
+                            <li>卫浴电器</li>
+                            <li>中式厨房</li>
+                            <li>西式厨房</li>
+                            <li>生活电器</li>
+                            <li>个护健康</li>
+                            <li>炊具水具</li>
+                            <li>饮水设备</li>
+                            <li>商用电器</li>
+                        </ol>
+
+                    </li>
+                    <li>电脑办公</li>
+                    <li>家具</li>
+                    <li>食品</li>
+                    <li>美妆</li>
+                    <li>母婴</li>
+                    <li>运动</li>
+                    <li>女装</li>
+                    <li>箱包</li>
+                    <li>汽车</li>
+                    <li>图书</li>
+                    <li>医药健康</li>
+                    <li>理财</li>
+                </ul>
+            </div>
+            <div class="_right">
+                <img src="./images/右边logo.png" alt="">
+                <p>Hi,欢迎来到苏宁易购</p>
+                <span>
+                    <a href="./login.html">登录</a>
+                    <a href="./register.html">注册</a>
+                </span>
+                <div class="right_box">199新人专享</div>
+                <div class="right_box boxT">开通super尊享特权</div>
+
+                <div class="_imgBox">
+                    <img src="./images/红包.png" alt="">
+                    
+                    <img src="./images/钻石.png" alt="">
+                    
+                    <img src="./images/神卷.png" alt="">
+                    
+                </div>
+                <div class="textBox">
+                 <p>领红包</p>
+                 <p>领云钻</p>
+                 <p>抢神卷</p>
+                </div>
+                
+                <div class="images_foot">
+                    <ul>
+                        <li><img src="./images/手机.png" alt=""><p>话费充值</p></li>
+                        <li><img src="./images/水电.png" alt=""><p>水电煤</p></li>
+                        <li><img src="./images/苏宁卡.png" alt=""><p>苏宁卡</p></li>
+                    </ul>
+                    <ul>
+                        <li><img src="./images/手机.png" alt=""><p>话费充值</p></li>
+                        <li><img src="./images/水电.png" alt=""><p>水电煤</p></li>
+                        <li><img src="./images/苏宁卡.png" alt=""><p>苏宁卡</p></li>
+                    </ul>
+                    <ul>
+                        <li><img src="./images/手机.png" alt=""><p>话费充值</p></li>
+                        <li><img src="./images/水电.png" alt=""><p>水电煤</p></li>
+                        <li><img src="./images/苏宁卡.png" alt=""><p>苏宁卡</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 商品 -->
+    <div class="goods_nav">
+        <ul class="good_navBox cenner">
+            <li>
+                <img src="./images/商品导航1.png" alt="">
+            
+                <!-- 倒计时 -->
+                <div class="time" id="box" style="float: right;">xx 天 xx 小时 xx 分钟 xx 秒钟</div>
+                <ol>
+                    <li>
+                        <img src="./images/天天秒杀1.jpg" alt="">
+                        <p>[送文具礼盒] 托比熊TOP</p>
+                        <span>¥66.80 </span><del>¥156</del>
+                        <div><span></span></div> <i>已抢34%</i>
+                    </li>
+                    <li>
+                        <img src="./images/天天秒杀2.jpg" alt="">
+                        <p>翡年滋补柠檬片35/罐柠</p>
+                        <span>¥88.8 </span><del>¥200</del>
+                        <div><span style="width: 66px;"></span></div> <i>已抢66%</i>
+                    </li>
+                    <li>
+                        <img src="./images/天天秒杀3.jpg" alt="">
+                        <p>迈家(maijia)剪刀日式SK</p>
+                        <span>¥99.9 </span><del>¥300</del>
+                        <div><span style="width: 55px;"></span></div> <i>已抢55%</i>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <img src="./images/商品导航2.png"><a href="./list.html">更多>></a>
+                <ol>
+                    <li>
+                        <img src="./images/天天低价1.jpg" alt="">
+                        <p>[送文具礼盒] 托比熊TOP</p>
+                        <span>¥66.80 </span><del>¥156</del>
+                        <div><span></span></div> <i>已抢34%</i>
+                    </li>
+                    <li>
+                        <img src="./images/天天低价2.jpg" alt="">
+                        <p>翡年滋补柠檬片35/罐柠</p>
+                        <span>¥88.8 </span><del>¥200</del>
+                        <div><span style="width: 66px;"></span></div> <i>已抢66%</i>
+                    </li>
+                    <li>
+                        <img src="./images/天天低价3.jpg" alt="">
+                        <p>迈家(maijia)剪刀日式SK</p>
+                        <span>¥99.9 </span><del>¥300</del>
+                        <div><span style="width: 55px;"></span></div> <i>已抢55%</i>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+        <ul class="good_navBox cenner">
+            <li>
+                <img src="./images/商品导航1.png" alt="">
+                <ol>
+                    <li>
+                        <img src="./images/天天秒杀1.jpg" alt="">
+                        <p>[送文具礼盒] 托比熊TOP</p>
+                        <span>¥66.80 </span><del>¥156</del>
+                        <div><span></span></div> <i>已抢34%</i>
+                    </li>
+                    <li>
+                        <img src="./images/天天秒杀2.jpg" alt="">
+                        <p>翡年滋补柠檬片35/罐柠</p>
+                        <span>¥88.8 </span><del>¥200</del>
+                        <div><span style="width: 66px;"></span></div> <i>已抢66%</i>
+                    </li>
+                    <li>
+                        <img src="./images/天天秒杀3.jpg" alt="">
+                        <p>迈家(maijia)剪刀日式SK</p>
+                        <span>¥99.9 </span><del>¥300</del>
+                        <div><span style="width: 55px;"></span></div> <i>已抢55%</i>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <img src="./images/商品导航2.png">
+                <ol>
+                    <li>
+                        <img src="./images/天天低价1.jpg" alt="">
+                        <p>[送文具礼盒] 托比熊TOP</p>
+                        <span>¥66.80 </span><del>¥156</del>
+                        <div><span></span></div> <i>已抢34%</i>
+                    </li>
+                    <li>
+                        <img src="./images/天天低价2.jpg" alt="">
+                        <p>翡年滋补柠檬片35/罐柠</p>
+                        <span>¥88.8 </span><del>¥200</del>
+                        <div><span style="width: 66px;"></span></div> <i>已抢66%</i>
+                    </li>
+                    <li>
+                        <img src="./images/天天低价3.jpg" alt="">
+                        <p>迈家(maijia)剪刀日式SK</p>
+                        <span>¥99.9 </span><del>¥300</del>
+                        <div><span style="width: 55px;"></span></div> <i>已抢55%</i>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+    <!-- 频道广场 -->
+    <div class="BoxNav">
+        
+        <div class="BoxNav_div cenner">
+            <img src="./images/频道广场.png" alt="">
+            <ul>
+                <li>
+                    <h2>生活家电</h2>   <p>潮流小家电</p>
+                    <img src="./images/生活家电2.jpg" alt="">
+                    <img src="./images/生活家电1.jpg" alt="">
+                </li>
+                <li>
+                    <h2>医药馆</h2>   <p>享健康生活</p>
+                    <img src="./images/医药馆2.jpg" alt="">
+                    <img src="./images/医药馆.jpg" alt="">
+                </li>
+                <li>
+                    <h2>运动户外</h2>   <p>户外精选</p>
+                    <img src="./images/户外运动2.jpg" alt="">
+                    <img src="./images/户外运动1.jpg" alt="">
+                </li>
+            
+            </ul>
+            <ul>
+                <li>
+                    <h2>箱包馆</h2>   <p>品牌推荐</p>
+                    <img src="./images/生活家电2.jpg" alt="">
+                    <img src="./images/生活家电1.jpg" alt="">
+                </li>
+                <li>
+                    <h2>服饰家纺</h2>   <p>品质服饰</p>
+                    <img src="./images/医药馆2.jpg" alt="">
+                    <img src="./images/医药馆.jpg" alt="">
+                </li>
+                <li>
+                    <h2>苏宁相机</h2>   <p>定格美好瞬间</p>
+                    <img src="./images/户外运动2.jpg" alt="">
+                    <img src="./images/户外运动1.jpg" alt="">
+                </li>
+            
+            </ul>
+            <ul>
+                <li>
+                    <h2>生活家电</h2>   <p>潮流小家电</p>
+                    <img src="./images/生活家电2.jpg" alt="">
+                    <img src="./images/生活家电1.jpg" alt="">
+                </li>
+                <li>
+                    <h2>医药馆</h2>   <p>享健康生活</p>
+                    <img src="./images/医药馆2.jpg" alt="">
+                    <img src="./images/医药馆.jpg" alt="">
+                </li>
+                <li>
+                    <h2>运动户外</h2>   <p>户外精选</p>
+                    <img src="./images/户外运动2.jpg" alt="">
+                    <img src="./images/户外运动1.jpg" alt="">
+                </li>
+            
+            </ul>
+
+
+
+
+        </div>
+    </div>
+    <!-- 底部 -->
+    <footer>
+        <div class="footer_top cenner">
+            <ul>
+                <li>
+                    <img src="./images/底部1.jpg" alt="">
+                    <a>正品保障</a>
+                    <p>正品保障、提供发票</p>
+                </li>
+                <li>
+                    <img src="./images/底部2.jpg" alt="">
+                    <a>急速物流</a>
+                    <p>如约送货、送货入户</p>
+                </li>
+                <li>
+                    <img src="./images/底部3.jpg" alt="">
+                    <a>售后无忧</a>
+                    <p>30天包退、365天包换</p>
+                </li>
+                <li>
+                    <img src="./images/底部4.jpg" alt="">
+                    <a>帮助中心</a>
+                    <p>您的购物指南</p>
+                </li>
+                <li>
+                    <img src="./images/底部5.png" alt="">
+                    <a>省心购</a>
+                    <p>专注好服务</p>
+                </li>
+            </ul>
+
+
+            <div class="foot_ter">
+                <ol>
+                    <li>购物指南</li>
+                    <li>免费注册</li>
+                    <li>会员等级</li>
+                    <li>常见问题</li>
+                </ol>
+                <ol>
+                <li> 支付方式</li>
+                <li>苏宁支付</li>
+                <li>网银支付</li>
+                <li>快捷支付</li>
+                <li>分期付款</li>
+                <li>货到付款</li>
+                <li>任性付支付</li>
+                </ol>
+                <ol>
+                    <li>物流配送</li>
+                    <li>运费政策</li>
+                    <li>物流配送服务</li>
+                    <li>签收验货</li>
+                    <li>物流查询</li>
+                </ol>
+                <ol>
+                    <li>售后服务</li>
+                    <li>退换货政策</li>
+                    <li>贵就赔</li>
+                    <li>维修/安装</li>
+                    <li>订单修改</li>
+                    <li>退换货申请</li>
+                    <li>我的发票</li>
+                </ol>
+
+                <ol>
+                    <li>商家服务</li>
+                    <li>合作招商</li>
+                    <li>培训中心</li>
+                    <li>广告服务</li>
+                    <li>商家帮助</li>
+                    <li>服务市场</li>
+                    <li>规则中心</li>
+                </ol>
+                <ol>
+                    <li>身边苏宁</li>
+                    <li>全国300多个城市，</li>
+                    <li>上万个门店和</li>
+                    <li> 服务终端期待</li>
+                    <li> 您的光临，</li>
+                    <li> 为您提供贴心的服务！</li>
+                </ol>
+            </div>
+    
+    
+
+        </div>
+    </footer>
+
+<script>
+    const ul = document.querySelector('.inputBox >ul')
+
+const inp = document.querySelector('.inputBox >input')
+inp.addEventListener('input', function () {
+  const value = this.value.trim()
+  if (!value) return
+
+  const script = document.createElement('script')
+
+  const url = `https://www.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=pc&from=pc_web&sugsid=1446,32857,33124,33061,32973,33099,33101,32962,22159&wd=${value}&req=2&csor=1&cb=bindHtml&_=1605768936993`
+  script.src = url
+ 
+  document.body.appendChild(script)
+ 
+  script.remove()
+})
+
+function bindHtml(res) {
+ 
+  if (!res.g) {
+    ul.classList.remove('active')
+    return
+  }
+
+  let str = ''
+  for (let i = 0; i < res.g.length; i++) {
+    str += `
+      <li>${ res.g[i].q }</li>
+    `
+  }
+  ul.innerHTML = str
+
+  ul.classList.add('active')
+}
+</script>
+<script src="./js/banner.js"></script>
+
+<script src="./assets/jquery/jquery.min.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/public.js"></script>
+</body>
+</html>

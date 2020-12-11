@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header>.cenner{
+    width: 990px;
+    height: 88px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+header>.cenner>p{
+    font-size: 25px;
+    color: #666;
+    line-height: 88px;
+    margin-left: 30px;
+}
+header>.cenner>a{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+header>.cenner>a:hover{
+    color: #f90 ;
+}
+.main{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 990px;
+    border: 1px solid #ddd;
+    border-top: 3px solid #f90;
+    padding: 55px 0;
+}
+.main > .form{
+    height: 326px;
+}
+.main > .form > .form_box{
+    width: 380px;
+    margin: 0 auto;
+    
+}
+
+.main > .form >.form_box p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.main > .form >.form_box p img{
+    width: 20px;
+    height: 20px;
+}
+.main > .form >.form_box p span{
+    color: red;
+}
+.main > .form > .form_box >.inputbox{
+width: 378px;
+height: 38px;
+border: 1px solid #ccc;
+line-height: 38px;
+margin-bottom: 25px;
+}
+.inputbox input{
+    width: 291px;
+    height: 35px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+}
+.inputbox  label{
+    margin-left: 5px;
+}
+.inputbox .Ver{
+    width: 175px;
+}
+.inputbox .botton{
+    float: right;
+    width: 100px;
+    text-align: center;
+    background-color:#f5f5f5;;
+    cursor: pointer;   
+}
+.inputbox .botton:hover{
+    color: #f60;
+}
+.submit{
+    width: 380px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #f60 ;
+    cursor: pointer;
+    margin-top: 60px;
+}
+.form_box a{
+    display: block;
+    color: #f60;
+    font-size: 14px;
+    margin-top: 20px;
+    text-decoration: none;
+}
